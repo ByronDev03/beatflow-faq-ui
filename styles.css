@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: 
+    radial-gradient(circle at top,
+    rgba(29,185,84,.15),
+    transparent 35%),
+    #181818;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 850px;
+    background: #121212;
+    border: none;
+    box-shadow: 0 10px 40px rgba(0,0,0,.45);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.faq-header{
+    margin-bottom: 35px;
+}
+
+.faq-header h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.faq-header p{
+    color: #b3b3b3;
+    font-size: 1rem;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.accordion-item{
+    width: 100%;
+}
+
+.accordion-question{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border: 2px solid #2d2d2d;
+    border-radius: 16px;
+    padding: 18px 22px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.accordion-question:hover{
+    border-color: #1db954;
+    box-shadow: 0 0 15px rgba(29, 185, 84,.3);
+    transform: translateY(-2px);
+    background: #111;
+}
+
+.accordion-question i{
+    font-size: 1rem;
+    transition: 
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-question i{
+    transform: rotate(180deg);
+}
+
+.accordion-item.active .accordion-question{
+    border-color: #1db954;
+    box-shadow: 0 0 15px rgba(29, 185, 84,.3);
+}
+
+.accordion-answer{
+    background: #181818;
+    border: 2px solid #2d2d2d;
+    border-radius: 16px;
+    margin-top: 10px;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    padding: 0 24px;
+
+    transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease,
+    padding 0.3s ease;
+}
+
+.accordion-answer p{
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #d4d4d4;
+}
+
+.accordion-item.active .accordion-answer{
+    max-height: 300px;
+    opacity: 1;
+    padding: 24px;
+}
+
+@media (max-width: 768px){
+
+    .container{
+        padding: 25px;
+    }
+
+    .faq-header h1{
+        font-size: 1.9rem;
+    }
+
+    .accordion-question{
+        font-size: 1rem;
+        padding: 16px 18px;
+    }
+
+    .accordion-answer p{
+        font-size: 1rem;
+    }
+
+}

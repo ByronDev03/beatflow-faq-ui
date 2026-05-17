@@ -9,25 +9,37 @@ body{
     background:
     radial-gradient(
         circle at top center,
-        rgba(84,130,179,.15),
-        transparent 25%
+        rgba(84,130,179,.18),
+        transparent 28%
     ),
     radial-gradient(
         circle at left center,
-        rgba(84,130,179,.08),
-        transparent 20%
+        rgba(84,130,179,.10),
+        transparent 18%
     ),
     radial-gradient(
         circle at bottom right,
-        rgba(194,232,255,.06),
-        transparent 25%
+        rgba(194,232,255,.07),
+        transparent 22%
     ),
     radial-gradient(
         circle at right top,
-        rgba(84,130,179,.10),
+        rgba(84,130,179,.12),
+        transparent 18%
+    ),
+
+    radial-gradient(
+        circle at bottom left,
+        rgba(84,130,179,.08),
         transparent 20%
     ),
-    #111111;
+
+    radial-gradient(
+        circle at center,
+        rgba(84,130,179,.05),
+        transparent 30%
+    ),
+    #0d1628;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;

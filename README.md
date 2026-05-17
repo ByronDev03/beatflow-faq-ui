@@ -30,7 +30,9 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 
 ## Preview
 
-<img width="100%" alt="BeatFlow FAQ UI Preview" src="https://via.placeholder.com/1200x700/121212/ffffff?text=BeatFlow+FAQ+UI">
+<div align="center">
+  <img src="assets/beatflow-faq.png" width="600" alt="BeatFlow FAQ UI Preview"/>
+</div>
 
 ---
 
@@ -45,10 +47,10 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 ```bash
 beatflow-faq-ui/
 │
-├── index.html       # Estructura principal
-├── styles.css       # Estilos del FAQ
-└── main.js          # Lógica del FAQ
-└── README.md        # Documentación del proyecto
+├── index.html       # Main structure
+├── styles.css       # FAQ styles
+└── main.js          # FAQ logic
+└── README.md        # Project documentation
 ```
 
 ---

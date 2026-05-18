@@ -38,7 +38,7 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 
 ##  Live Demo
 
-🔗 https://beatflow-faq-ui.vercel.app
+https://beatflow-faq-ui.vercel.app
 
 ---
 

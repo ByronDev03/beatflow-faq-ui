@@ -6,7 +6,6 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 ---
 
 ## Features
-
 -  Modern streaming platform inspired UI
 -  Dark mode design
 -  Smooth accordion animations
@@ -19,7 +18,6 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 ---
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript
@@ -37,20 +35,19 @@ Built with **HTML, CSS and JavaScript** featuring smooth animations, dark mode U
 ---
 
 ##  Live Demo
-
 https://beatflow-faq-ui.vercel.app
 
 ---
 
 ## Project Structure
-
 ```bash
 beatflow-faq-ui/
 │
-├── index.html       # Main structure
-├── styles.css       # FAQ styles
-└── main.js          # FAQ logic
-└── README.md        # Project documentation
+├── assets/        # Icons and resources
+├── index.html     # Main structure
+├── styles.css     # FAQ styles
+└── main.js        # FAQ logic
+└── README.md      # Project documentation
 ```
 
 ---
@@ -74,9 +71,7 @@ Then simply open `index.html` in your browser.
 ---
 
 ## Project Goal
-
-This project was created to practice and improve frontend development skills including:
-
+**This project was created to practice and improve frontend development skills including:**
 - DOM manipulation
 - Event handling
 - Responsive design
@@ -87,8 +82,4 @@ This project was created to practice and improve frontend development skills inc
 ---
 
 ## Author
-
-Developed by **ByronDev03**
-
-GitHub:  
-https://github.com/ByronDev03
+*Developed by Byron Jorge Ortega Cuenca*

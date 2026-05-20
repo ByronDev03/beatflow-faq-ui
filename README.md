@@ -41,13 +41,14 @@ https://beatflow-faq-ui.vercel.app
 
 ## Project Structure
 ```bash
-beatflow-faq-ui/
+/beatflow-faq-ui
 │
 ├── assets/        # Icons and resources
 ├── index.html     # Main structure
-├── styles.css     # FAQ styles
-└── main.js        # FAQ logic
-└── README.md      # Project documentation
+├── styles.css     # PFAQ styles
+├── main.js        # FAQ logic
+├── README.md      # Project documentation
+└── LICENSE        # Legal usage rules
 ```
 
 ---

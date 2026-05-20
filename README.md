@@ -81,5 +81,10 @@ Then simply open `index.html` in your browser.
 
 ---
 
+## License
+This project is open source and available under the MIT License.
+
+---
+
 ## Author
 *Developed by Byron Jorge Ortega Cuenca*

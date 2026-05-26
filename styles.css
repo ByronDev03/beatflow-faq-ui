@@ -1,3 +1,6 @@
+/* =========================
+   RESET & BASE
+========================= */
 *{
     margin: 0;
     padding: 0;
@@ -47,6 +50,9 @@ body{
     padding: 40px 20px;
 }
 
+/* =========================
+   FAQ CONTAINER
+========================= */
 .container{
     width: 100%;
     max-width: 760px;
@@ -75,6 +81,9 @@ body{
     pointer-events: none;
 }
 
+/* =========================
+   FAQ HEADER
+========================= */
 .faq-header{
     margin-bottom: 35px;
 }
@@ -91,6 +100,9 @@ body{
     font-size: .95rem;
 }
 
+/* =========================
+   ACCORDION LAYOUT
+========================= */
 .accordion{
     display: flex;
     flex-direction: column;
@@ -108,10 +120,9 @@ body{
     transform 0.3s ease;
 }
 
-.accordion-item.active i{
-    color: #7DA0CA;
-}
-
+/* =========================
+   ACCORDION QUESTION
+========================= */
 .accordion-question{
     width: 100%;
     background: transparent;
@@ -150,28 +161,16 @@ body{
     transform 0.3s ease;
 }
 
-.accordion-item.active .accordion-question i{
-    transform: rotate(180deg);
-}
-
-.accordion-item.active .accordion-question{
-    background: rgba(84,130,179,.12);
-    border-color: #5482B3;
-    box-shadow:
-    0 0 30px rgba(84,130,179,.12);
-}
-
+/* =========================
+   ACCORDION ANSWER
+========================= */
 .accordion-answer{
     background: transparent;
     border-radius: 16px;
-
     max-height: 0;
     overflow: hidden;
-
     opacity: 0;
-
     padding: 0 24px;
-
     transition:
     max-height 0.4s ease,
     opacity 0.3s ease,
@@ -184,12 +183,34 @@ body{
     color: #c2e8ff;
 }
 
+/* =========================
+   ACCORDION STATES
+========================= */
+.accordion-item.active i{
+    color: #7DA0CA;
+}
+
+.accordion-item.active .accordion-question i{
+    transform: rotate(180deg);
+}
+
+.accordion-item.active .accordion-question{
+    background: rgba(84,130,179,.12);
+    border-color: #5482B3;
+    box-shadow:
+    0 0 30px rgba(84,130,179,.12);
+}
+
 .accordion-item.active .accordion-answer{
     max-height: 300px;
     opacity: 1;
     padding: 0 24px 24px 24px;
 }
 
+/* =========================
+   RESPONSIVE
+========================= */
+/* MOBILE FAQ */
 @media (max-width: 768px){
 
     .container{
